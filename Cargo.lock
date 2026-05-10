@@ -730,6 +730,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "hx711"
+version = "0.7.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "60c8a5b176b4cba5ff9c01a721bc4758af53717062f251f55553fc73abe627a8"
+dependencies = [
+ "embedded-hal 1.0.0",
+ "nb 1.1.0",
+]
+
+[[package]]
 name = "ident_case"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1240,7 +1250,9 @@ dependencies = [
  "embassy-time",
  "embedded-graphics",
  "fixed",
+ "hx711",
  "micromath",
+ "nb 1.1.0",
  "panic-probe",
  "pio",
  "st7735-lcd",
