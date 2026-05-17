@@ -20,3 +20,8 @@ st7735-lcd = "0.9.0"
 embedded-graphics = "0.8.1"
 hx711 = "0.7.0"
 nb = "1.0"
+
+# --- NEW DEPENDENCIES FOR RTC AND SD CARD ---
+ds323x = "0.6.0"
+embedded-sdmmc = "0.8.0"
+embedded-hal-bus = "0.2.0"
